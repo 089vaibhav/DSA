@@ -14,6 +14,11 @@ class Node {
         this->prev = NULL;
         this->next = NULL;
     }
+
+     // Destructor to free the memory of the node
+    ~Node() {
+        // No specific action needed here since we're managing memory at the list level
+    }
 };
 
 // Function to insert a new node at the head of the list
